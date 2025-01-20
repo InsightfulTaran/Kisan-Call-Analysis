@@ -45,9 +45,3 @@ try:
     status_msg("datetime")
 except ImportError:
     status_msg("datetime",0)
-
-#visualization
-try:
-    import matplotlib.pyplot
-except:
-    pass
